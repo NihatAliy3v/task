@@ -9,12 +9,14 @@ import avatarKimberly from "./avatar-kimberly-smith.webp";
 import avatarNathan from "./avatar-nathan-peterson.webp";
 import avatarAnna from "./avatar-anna-kim.webp";
 import avatarRizky from "./avatar-rizky-hasanuddin.webp";
+let notifications = 3;
+
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <CardTop />
+        <CardTop count ={notifications}/>
         <div className="card-main">
           <CardComponentGrey
             name="Mark Webber"

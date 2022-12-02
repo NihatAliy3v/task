@@ -29,7 +29,7 @@ body {
   font-weight: 600;
   position: relative;
 }
-.card-top .notifications::after {
+.card-top .notifications span {
   content: "3";
   display: inline-block;
   width: 26px;
