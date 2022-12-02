@@ -11,7 +11,6 @@ import avatarAnna from "./avatar-anna-kim.webp";
 import avatarRizky from "./avatar-rizky-hasanuddin.webp";
 let notifications = 3;
 
-
 function App() {
   return (
     <div className="App">

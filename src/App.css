@@ -51,13 +51,16 @@ body {
 }
 .card-main .card-component {
   width: 100%;
-
   background-color: hsl(211, 68%, 94%);
   border-radius: 8px;
   display: flex;
   align-items: center;
   padding: 10px 15px;
   margin-bottom: 8px;
+  transition: all .3s;
+}
+.card-main .card-component:hover{
+  background-color: rgb(138, 177, 214);
 }
 .card-main .colorless {
   background-color: #fff;
@@ -78,7 +81,7 @@ body {
   font-size: 14px;
   color: hsl(219, 12%, 42%);
 }
-.CardComponentColor .card-right .description:last-of-type::after {
+.CardComponentGrey .card-right .description:last-of-type::after {
   content: "";
   background-color: hsl(1, 90%, 64%);
   width: 7px;
