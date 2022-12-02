@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: hsl(211, 68%, 94%);
+  padding: 80px 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  width: 680px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 0 30px 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-top {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 40px 0;
+}
+.card-top .notifications {
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+}
+.card-top .notifications::after {
+  content: "3";
+  display: inline-block;
+  width: 26px;
+  height: 20px;
+  background-color: hsl(219, 85%, 26%);
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  margin-left: 8px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-54%);
+}
+.card-top .mark {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(219, 12%, 42%);
+}
+.card-main .card-component {
+  width: 100%;
+
+  background-color: hsl(211, 68%, 94%);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+}
+.card-main .colorless {
+  background-color: #fff;
+}
+.card-img {
+  align-self: flex-start;
+}
+.card-img img {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+.card-right {
+  margin-left: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-right .description {
+  font-size: 14px;
+  color: hsl(219, 12%, 42%);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.CardComponentColor .card-right .description:last-of-type::after {
+  content: "";
+  background-color: hsl(1, 90%, 64%);
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-bottom: 2px;
+  margin-left: 4px;
+}
+.card-right .description .name {
+  color: #000;
+  font-weight: 600;
+  margin-right: 4px;
+}
+.card-right .gray {
+  color: hsl(219, 12%, 42%);
+  font-weight: 600;
+}
+.card-right .blue {
+  color: hsl(219, 85%, 26%);
+  font-weight: 600;
+}
+.timeAgo {
+  font-size: 13px;
+  color: hsl(216, 56%, 2%);
 }
