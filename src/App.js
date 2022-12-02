@@ -2,13 +2,13 @@ import "./App.css";
 import CardComponent from "./components/CardComponent";
 import CardComponentGrey from "./components/CardComponentGrey";
 import CardTop from "./components/CardTop";
-import avatarMark from "./avatar-mark-webber.webp";
-import avatarJacob from "./avatar-jacob-thompson.webp";
-import avatarAngela from "./avatar-angela-gray.webp";
-import avatarKimberly from "./avatar-kimberly-smith.webp";
-import avatarNathan from "./avatar-nathan-peterson.webp";
-import avatarAnna from "./avatar-anna-kim.webp";
-import avatarRizky from "./avatar-rizky-hasanuddin.webp";
+import avatarMark from "./images/avatar-mark-webber.webp";
+import avatarJacob from "./images/avatar-jacob-thompson.webp";
+import avatarAngela from "./images/avatar-angela-gray.webp";
+import avatarKimberly from "./images/avatar-kimberly-smith.webp";
+import avatarNathan from "./images/avatar-nathan-peterson.webp";
+import avatarAnna from "./images/avatar-anna-kim.webp";
+import avatarRizky from "./images/avatar-rizky-hasanuddin.webp";
 let notifications = 3;
 
 function App() {
