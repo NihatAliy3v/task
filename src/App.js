@@ -1,6 +1,6 @@
 import "./App.css";
 import CardComponent from "./components/CardComponent";
-import CardComponentColor from "./components/CardComponentColor";
+import CardComponentGrey from "./components/CardComponentGrey";
 import CardTop from "./components/CardTop";
 import avatarMark from "./avatar-mark-webber.webp";
 import avatarJacob from "./avatar-jacob-thompson.webp";
@@ -16,20 +16,20 @@ function App() {
       <div className="container">
         <CardTop />
         <div className="card-main">
-          <CardComponentColor
+          <CardComponentGrey
             name="Mark Webber"
             link={avatarMark}
             description="reacted to your  recent post"
             gray="My first tournament today!"
             time="1m ago"
           />
-          <CardComponentColor
+          <CardComponentGrey
             name="Angela Gray"
             link={avatarAngela}
             description="followed you"
             time="5m ago"
           />
-          <CardComponentColor
+          <CardComponentGrey
             name="Jacob Thompson"
             link={avatarJacob}
             description="has joined your  group"

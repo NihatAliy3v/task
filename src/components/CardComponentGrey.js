@@ -1,8 +1,8 @@
 import React from "react";
 
-function CardComponentColor(props) {
+function CardComponentGrey(props) {
   return (
-    <a href="#single-card" className="CardComponentColor">
+    <a href="#single-card" className="CardComponentGrey">
       <div className="card-component">
         <div className="card-img">
           <img src={props.link} />
@@ -21,4 +21,4 @@ function CardComponentColor(props) {
   );
 }
 
-export default CardComponentColor;
+export default CardComponentGrey;
