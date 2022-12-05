@@ -2,8 +2,8 @@ import React from "react";
 
 function CardComponent(props) {
   return (
-    <a href="#single-card" className="CardComponent">
-      <div className="card-component colorless">
+    <div className="CardComponent">
+      <a href="#single-card" className="card-component colorless">
         <div className="card-img">
           <img src={props.link} />
         </div>
@@ -16,8 +16,8 @@ function CardComponent(props) {
           <span className="red-circle"></span>
           <span className="timeAgo">{props.time}</span>
         </div>
-      </div>
-    </a>
+      </a>
+    </div>
   );
 }
 

@@ -2,8 +2,8 @@ import React from "react";
 
 function CardComponentGrey(props) {
   return (
-    <a href="#single-card" className="CardComponentGrey">
-      <div className="card-component">
+    <div className="CardComponentGrey">
+      <a href="#single-card" className="card-component">
         <div className="card-img">
           <img src={props.link} />
         </div>
@@ -16,8 +16,8 @@ function CardComponentGrey(props) {
           <span className="red-circle"></span>
           <span className="timeAgo">{props.time}</span>
         </div>
-      </div>
-    </a>
+      </a>
+    </div>
   );
 }
 
